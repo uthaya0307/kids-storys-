@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.thala{
+    color: rgb(190, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+ 
+}
+.bass {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.bass video{
+    
+    position: absolute;
+    top: 20%;
+    left: 20%;
+
+}
+.jon{
+    z-index: 1;
+}
+.jon h1{
+    font-size: 40px;
+    color: white;
+}
+.jon h1::first-letter{
+    color: red;
+}
+.jon a{
+    background-color: rgb(0, 0, 134);
+    border: 2px solid white;
+    color: white;
+    padding:10px ;
+    text-decoration: none;  
+}   
+.jon a:hover{
+    opacity: 0.9;
+    color: red;
+}
+.the{
+    text-align-last: center;
+}
+.the h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.the p{
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.the p::first-letter{
+    color: red;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#like{
+    text-align: center;
+} 
+#like h1{
+    font-size: 50px;
+    color: blue;
+}
+#Like{
+    font-size: larger;
+     
+}
+#like p{
+padding: 50px;
+font-size: medium;
+}
